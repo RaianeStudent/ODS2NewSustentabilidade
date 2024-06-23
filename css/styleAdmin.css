@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.admin-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #a2a7aa4d; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1b4152;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-top: 10px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 10%;
+}
+
+button {
+    width: 15%;
+    height: 10%;
+    padding: 10px;
+    background-color: #1b4152;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1b4152; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#1b4152;
+    color: white;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  p{
+    font-size: 19px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }  
+  nav ul li a {
+    color:white; 
+    text-decoration: none;
+    font-size:75%;
+
+  }
+  nav ul li a:hover {
+    color: #a2a7aa4d; 
+  }
+  #lista-dados li{
+    padding: 20px 0 2px 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  

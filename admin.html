@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="css/styleAdmin.css" />
+</head>
+
+<body>
+    <header>
+        <h1>New Sustentabilidade</h1>
+        <nav>
+            <ul>
+                <li><a href="principal.html">INÍCIO</a></li>
+                <li><a href="doacao.html">DOAR</a></li>
+                <li><a href="voluntario.html">VOLUNTARIAR</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="admin.html">ADMIN</a></li>
+                <li><a href="login.html">SAIR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="admin-container">
+            <h2>Formulário de Contato</h2>
+            <form >
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="button" onclick="guardaFormulario()">Enviar</button>
+                <button type="button" onclick="limparCampos()">Limpar</button>
+                <button type="button" onclick="limparLocalStorage()">Excluir lista</button>
+            </form>
+            <div class="pesquisa">
+                <input type="search" id="pesquisaNome" placeholder="Pesquisar por nome">
+                <button type="button" onclick="pesquisarPorNome()">Pesquisar</button>
+            </div>
+
+            <ul id="lista-dados"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Serviço de Segurança Alimentar e Agricultura Sustentável</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#1b4152;
+    color: white;
+    padding: 20px;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size:75%;
+  }
+  nav ul li a:hover {
+    background-color: #a2a7aa4d; 
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .registro-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #a2a7aa4d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registro-container h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  #listaVoluntarios {
+    display: none; 
+    list-style-type: none; 
+    padding: 0; 
+    margin: auto; 
+    max-width: 300px; 
+  }
+  
+  .voluntario {
+    text-align: center; 
+  }
+  
+  
+  
+  
+  label {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  a button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1b4152;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button {
+  background-color: 1b4152;
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  cursor: pointer; }
+
+button:hover {
+  background-color: #C4170C; 
+}
+
+input[type="submit"] {
+    padding: 0px;
+    margin-top: 0px;
+    background-color: #1b4152;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  footer {
+    background-color: #1b4152; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

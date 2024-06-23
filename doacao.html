@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doar para Organizações</title>
+<link rel="stylesheet" href="css/styleDoacao.css">
+</head>
+<body>
+  <header>
+    <h1>New Sustentabilidade</h1>
+    <nav>
+      <ul>
+        <li><a href="principal.html">INÍCIO</a></li>
+                <li><a href="doacao.html">DOAR</a></li>
+                <li><a href="voluntario.html">VOLUNTARIAR</a></li>
+                <li><a href="sobre.html">SOBRE NÓS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+                <li><a href="admin.html">ADMIN</a></li>
+                <li><a href="login.html">SAIR</a></li>
+      </ul>
+    </nav>
+  </header>
+<main>
+  <div class="doacao-container">
+    <h2>Doar para Organizações</h2>
+    <form action="#">
+      <label for="doacao">Valor da Doação:</label>
+      <input type="text" id="doacao" name="doacao" placeholder="Digite o valor em reais" required>
+      
+      <label for="metodo-pagamento">Forma de Pagamento:</label>
+      <select id="metodo-pagamento" name="metodo-pagamento" required>
+        <option value="" disabled selected>Selecione uma opção</option>
+        <option value="pix">Pix</option>
+        <option value="boleto">Boleto</option>
+        <option value="cartao">Cartão de Crédito ou Débito</option>
+      </select>
+      
+      <label for="observacao">Motivo da Doação (opcional):</label>
+      <input type="text" id="observacao" name="observacao" placeholder="Informe o motivo da doação">
+      
+      <a href="sucesso.html" target="_self">
+        <button type="button">Doar</button>
+    </form>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2024 Serviço de Segurança Alimentar e Agricultura Sustentável</p>
+</footer>
+
+</body>
+</html>
